@@ -7,5 +7,5 @@ button("view")
     print(out);
 }
 button("generate"){
-    print(url+"/front?="+droplists_result());
+    print(url+"/front?id="+droplists_result());
 }
