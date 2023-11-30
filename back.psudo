@@ -1,0 +1,11 @@
+droplist(file:words.txt)
+droplist(file:words.txt)
+droplist(file:words.txt)
+button("view")
+{
+    out = load_db_entry(droplists_result());
+    print(out);
+}
+button("generate"){
+    print(url+"/front?="+droplists_result());
+}
