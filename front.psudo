@@ -1,0 +1,8 @@
+input = grab_$GET_info("id");
+input = escape_characters(input);
+input = remove_non_alphabetics_except_underscore(input);
+input_list = [split(input, "_")];
+if len(input_list) != 3
+    die();
+
+print(input_list);
